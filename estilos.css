@@ -10,7 +10,7 @@
     }
 
     .Perfil-card{
-        width: 800px;
+        width: 600px;
         margin: 40px auto;
         border: 4px solid rgb(57, 2, 2);
         background-color: rgb(85, 21, 21);
@@ -43,6 +43,13 @@
     }
 
     .links{
-        align-items: center;
         display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    .links a:hover {
+    color: #d30000;
+}
+    .boton{
+        align-items: center;
     }

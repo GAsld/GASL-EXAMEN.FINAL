@@ -60,6 +60,14 @@
     .boton{
         background-color: #f1cbcb;
     }
-    @media screen {  
-        
-    }
+
+  @media (max-width: 400px) {
+  .Perfil-card {
+    grid-template-columns: 1fr;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+}
